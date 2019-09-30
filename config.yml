@@ -1,0 +1,9 @@
+database:
+  host: "localhost"
+  port: 8060
+  name: "workgroup"
+  user: "readonly"
+  password: "password"
+
+scrapeIntervalSeconds: 5
+port: 9030
