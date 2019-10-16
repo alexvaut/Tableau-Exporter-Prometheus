@@ -2,9 +2,10 @@
 Export Tableau metrics for Prometheus. It's more than inspired of https://community.tableau.com/docs/DOC-5592.
 
 ## Expose tableau DB
--	https://help.tableau.com/current/server/en-us/perf_collect_server_repo.htm (Enable access to the Tableau Server repository)
--	Open the port 8060 in the windows server firewall (https://community.tableau.com/thread/192653).
--	Try to connect from your tableau desktop running on another machine by adding a new data source. Same link (Connect to the Tableau Server repository).
+-	Enable access to the Tableau Server repository
+    https://help.tableau.com/current/server/en-us/perf_collect_server_repo.htm
+-	For windows, open the port 8060 in the windows server firewall (https://community.tableau.com/thread/192653).
+-	Try to connect from your tableau desktop running on another machine by adding a new data source. https://help.tableau.com/current/server/en-us/perf_collect_server_repo.htm (Connect to the Tableau Server repository).
 
 ## Build the docker image
 ```
